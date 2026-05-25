@@ -1,4 +1,4 @@
-// Замена словаря. Подключи вместо встроенного массива bank
+// Расширенный словарь для игры «Крокодил»
 window.CROCODILE_WORDS = [
 ['easy','word','things','термос'],['easy','word','things','бинокль'],['easy','word','things','будильник'],['easy','word','things','гамак'],['easy','word','things','скейтборд'],['easy','word','things','фонарик'],['easy','word','things','палатка'],['easy','word','things','свисток'],
 ['easy','word','actions','ныряние'],['easy','word','actions','уборка'],['easy','word','actions','шёпот'],['easy','word','actions','обнимание'],['easy','word','actions','разминка'],['easy','word','actions','катание'],
@@ -10,6 +10,24 @@ window.CROCODILE_WORDS = [
 ['hard','word','abstract','синергия'],['hard','word','abstract','манипуляция'],['hard','word','abstract','ирония'],['hard','word','abstract','комбинаторика'],['hard','word','abstract','концепция'],
 ['easy','phrase','things','горячий шоколад'],['easy','phrase','things','волшебный ковёр'],['easy','phrase','things','карманный фонарь'],['easy','phrase','characters','добрый пират'],
 ['medium','phrase','abstract','эффект бабочки'],['medium','phrase','abstract','скрытый смысл'],['medium','phrase','abstract','железная логика'],['medium','phrase','nature','ледяная пещера'],['medium','phrase','things','секретная миссия'],
-['hard','phrase','abstract','точка бифуркации'],['hard','phrase','abstract','культурный шок'],['hard','phrase','abstract','синдром самозванца'],['hard','phrase','actions','операция спасения'],['hard','phrase','things','портал времени']
+['hard','phrase','abstract','точка бифуркации'],['hard','phrase','abstract','культурный шок'],['hard','phrase','abstract','синдром самозванца'],['hard','phrase','actions','операция спасения'],['hard','phrase','things','портал времени'],
+
+// +100 новых заданий
+['easy','word','things','тёрка'],['easy','word','things','сковорода'],['easy','word','things','домофон'],['easy','word','things','брелок'],['easy','word','things','каноэ'],['easy','word','things','самокат'],['easy','word','things','мольберт'],['easy','word','things','ролики'],['easy','word','things','комод'],['easy','word','things','плед'],
+['easy','word','things','блендер'],['easy','word','things','тостер'],['easy','word','things','сушилка'],['easy','word','things','ракетка'],['easy','word','things','аккордеон'],['easy','word','things','мел'],['easy','word','things','скрепка'],['easy','word','things','штамп'],['easy','word','things','шлем'],['easy','word','things','кастрюля'],
+['easy','word','things','каска'],['easy','word','things','тележка'],['easy','word','things','веер'],['easy','word','things','бинт'],['easy','word','things','комикс'],['easy','word','things','гармошка'],['easy','word','things','фляга'],['easy','word','things','миксер'],['easy','word','things','эскиз'],['easy','word','things','лейка'],
+
+['medium','word','actions','перевоплощение'],['medium','word','actions','ускорение'],['medium','word','actions','замедление'],['medium','word','actions','перехват'],['medium','word','actions','знакомство'],['medium','word','actions','переписка'],['medium','word','actions','торговля'],['medium','word','actions','засыпание'],['medium','word','actions','спасение'],['medium','word','actions','наблюдение'],
+['medium','word','actions','открытие'],['medium','word','actions','исследование'],['medium','word','actions','отступление'],['medium','word','actions','захват'],['medium','word','actions','предсказание'],['medium','word','actions','вдох'],['medium','word','actions','встреча'],['medium','word','actions','обучение'],['medium','word','actions','разгадка'],['medium','word','actions','приземление'],
+
+['hard','word','abstract','дезориентация'],['hard','word','abstract','самоконтроль'],['hard','word','abstract','рефлексия'],['hard','word','abstract','инерция'],['hard','word','abstract','перфекционизм'],['hard','word','abstract','стратегия'],['hard','word','abstract','эволюция'],['hard','word','abstract','амбиция'],['hard','word','abstract','конкуренция'],['hard','word','abstract','предубеждение'],
+['hard','word','abstract','инициатива'],['hard','word','abstract','коммуникация'],['hard','word','abstract','ассоциация'],['hard','word','abstract','влияние'],['hard','word','abstract','намерение'],['hard','word','abstract','ориентация'],['hard','word','abstract','адаптация'],['hard','word','abstract','альтернатива'],['hard','word','abstract','реальность'],['hard','word','abstract','память'],
+
+['medium','word','nature','каньон'],['medium','word','nature','штиль'],['medium','word','nature','тайфун'],['medium','word','nature','лавина'],['medium','word','nature','риф'],['medium','word','nature','гроза'],['medium','word','nature','пустыня'],['medium','word','nature','прилив'],['medium','word','nature','ущелье'],['medium','word','nature','болото'],
+
+['easy','word','characters','археолог'],['easy','word','characters','волшебник'],['easy','word','characters','изобретатель'],['easy','word','characters','принц'],['easy','word','characters','шпион'],['easy','word','characters','викинг'],['easy','word','characters','фермер'],['easy','word','characters','ковбой'],['easy','word','characters','охранник'],['easy','word','characters','бариста'],
+
+['medium','phrase','things','разбитое зеркало'],['medium','phrase','things','стеклянный мост'],['medium','phrase','things','потерянный ключ'],['medium','phrase','things','тайный сигнал'],['medium','phrase','things','магический круг'],['medium','phrase','things','бумажный самолёт'],['medium','phrase','things','золотой билет'],['medium','phrase','things','вечный двигатель'],['medium','phrase','things','странный чемодан'],['medium','phrase','things','последний шанс'],
+
+['easy','phrase','actions','быстрый старт'],['easy','phrase','actions','громкий смех'],['easy','phrase','actions','тихий шаг'],['easy','phrase','actions','ночная прогулка'],['easy','phrase','nature','звёздное небо'],['easy','phrase','nature','горячий песок'],['medium','phrase','abstract','двойная жизнь'],['medium','phrase','abstract','скрытая угроза'],['hard','phrase','abstract','ошибка выжившего'],['hard','phrase','abstract','ложная тревога']
 ];
-// Сейчас это только дополнительный пакет слов — суммарный словарь станет примерно в 2 раза больше после замены bank.concat(window.CROCODILE_WORDS)
